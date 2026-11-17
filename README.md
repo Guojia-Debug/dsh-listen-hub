@@ -3,8 +3,8 @@
 DeepSeek Harness（DSH）侧边栏面板插件：一个面板里并排放多个站点，切走面板也不停播。
 
 目前聚合两个站点：
-![Uploading ScreenShot_2026-11-17_163113_589.jpg…]()
-
+https://github.com/Guojia-Debug/dsh-platform-hub/blob/main/ScreenShot_2026-11-17_163113_589.jpg?raw=true
+https://github.com/Guojia-Debug/dsh-platform-hub/blob/main/ScreenShot_2026-11-17_163140_005.png?raw=true
 | 标签页 | 内容 |
 | --- | --- |
 | 汽水音乐 | 扫码登录后在后台播放，「随心听」一键随机开声；搜索、歌单、「我喜欢的音乐」「最近播放」同步，支持按音质下载 |
