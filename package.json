@@ -1,0 +1,37 @@
+{
+  "name": "dsh-platform-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "多平台聚合面板：汽水音乐、世界电台。",
+  "license": "MIT",
+  "icon": "icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale",
+    "vendor"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "scripts": {
+    "test": "node test-client.cjs",
+    "verify": "node verify-player.cjs"
+  }
+}

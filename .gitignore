@@ -1,0 +1,19 @@
+# 依赖与构建产物
+node_modules/
+pnpm-lock.yaml.bak*
+
+# 运行期数据（登录态、deviceId 由插件写到 $DSH_HOME/platform-hub/，不进仓库）
+qishui.json
+qishui.json.bak*
+
+# 本地备份
+*.bak
+*.bak-*
+*.bak.*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
